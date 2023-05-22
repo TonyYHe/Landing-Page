@@ -11,7 +11,7 @@ body {
 .block3,
 .block4,
 .footer {
-    padding: 10px 240px;
+    padding: 70px 240px;
 }
 
 .header, 
@@ -25,6 +25,8 @@ body {
     justify-content: space-between;
     font-size: 24px;
     color: #F0FAF8;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 a, 
@@ -104,14 +106,30 @@ button.sign-up {
 }
 
 .item {
-    max-width: 200px;
+    max-width: 150px;
     font-size: 18px;
     color: darkgrey;
 }
 
 .item-image {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 8px;
     border: 3px solid #3882F6;
+}
+
+.block3 {
+    background-color: #e5e7eb;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    padding-left: 270px;
+    padding-right: 270px;
+}
+
+.quote-author {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
 }
