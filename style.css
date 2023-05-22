@@ -5,7 +5,7 @@ body {
     font-family: Roboto, sans-serif;
 }
 
-.header,
+.block0,
 .block1,
 .block2,
 .block3,
@@ -14,19 +14,22 @@ body {
     padding: 70px 240px;
 }
 
-.header, 
+.block0, 
 .block1,
 .footer {
     background-color: #1F2937;
 }
 
-.header {
+.block0 {
     display: flex;
     justify-content: space-between;
-    font-size: 24px;
-    color: #F0FAF8;
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+.header {
+    font-size: 24px;
+    color: #F0FAF8;
 }
 
 a, 
@@ -55,8 +58,8 @@ a {
     gap: 30px;
 }
 
-.title,
-.subtext {
+.block1 .title,
+.block1 .subtext {
     margin-bottom: 16px;
 }
 
@@ -75,8 +78,12 @@ button {
 
 button.sign-up {
     background: #3882F6;
-    border: 1px solid #3882F6;
     color: white;
+    border: 1px solid;
+}
+
+.block1 .sign-up {
+    border-color: #3882F6;
 }
 
 .title {
@@ -132,4 +139,20 @@ button.sign-up {
     font-size: 20px;
     font-weight: bold;
     text-align: right;
+}
+
+.container4 {
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 40px 60px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.block4 .header {
+    font-weight: bold;
+}
+.block4 .sign-up {
+    border-color: white;
 }
