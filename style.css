@@ -27,6 +27,25 @@ body {
     color: #F0FAF8;
 }
 
+a, 
+.subtext{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
 .block1 {
     display: flex;
     padding-top: 80px;
@@ -67,23 +86,4 @@ button.sign-up {
 .subtext {
     font-size: 18px;
     color: #e5e7eb;
-}
-
-a, 
-.subtext{
-    font-size: 18px;
-    color: #e5e7eb;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0;
-    gap: 16px;
-}
-
-a {
-    text-decoration: none;
 }
